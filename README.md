@@ -1,2 +1,4 @@
-# u18_php56
-Old PHP 5.6
+PHP5.6 fpm
+---
+
+Serveur PHP-FPM sous ubuntu 18.04
