@@ -1,4 +1,4 @@
-# Version 1.0.4
+# Version 1.0.5
 
 FROM jeromeklam/u18
 MAINTAINER Jérôme KLAM, "jeromeklam@free.fr"
@@ -10,7 +10,7 @@ ENV PHP_VER 5.6
 RUN apt-get update && apt-get install -y libzmq3-dev
 RUN apt-get update && LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 RUN apt-get update && apt-get install -y php${PHP_VER} php${PHP_VER}-cli php${PHP_VER}-common
-RUN apt-get update && apt-get install -y php${PHP_VER}-mbstring php${PHP_VER}-mysql php${PHP_VER}-xml php${PHP_VER}-pear php${PHP_VER}-soap
+RUN apt-get update && apt-get install -y php${PHP_VER}-mbstring php${PHP_VER}-mysql php${PHP_VER}-xml php${PHP_VER}-soap
 RUN apt-get update && apt-get install -y php${PHP_VER}-dev php${PHP_VER}-tidy php${PHP_VER}-zip php${PHP_VER}-memcached
 RUN apt-get update && apt-get install -y php${PHP_VER}-curl php-ldap php${PHP_VER}-gd php${PHP_VER}-intl php${PHP_VER}-gmp php${PHP_VER}-zmq
 
