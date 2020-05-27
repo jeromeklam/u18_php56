@@ -1,4 +1,4 @@
-# Version 1.0.1
+# Version 1.0.2
 
 FROM jeromeklam/u18
 MAINTAINER Jérôme KLAM, "jeromeklam@free.fr"
